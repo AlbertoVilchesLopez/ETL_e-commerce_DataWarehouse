@@ -30,13 +30,7 @@ etl-olist/
 
 # Resumen rápido:
 
-Coloca los CSVs en data/.
 
-Crea un entorno virtual e instala dependencias:
-
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
 
 
 Configura .env con credenciales de Postgres.
@@ -48,16 +42,11 @@ Ejecuta ETL localmente:
 python scripts/01_extract_transform.py
 python scripts/02_load_postgres.py
 
-
 (Opcional) Ejecuta Airflow y activa el DAG etl_olist_pipeline.
-
 Ejecuta análisis:
-
 python analysis/analysis_notebook.py
-
-
-
 Los gráficos se guardarán en analysis/.
+
 
 
 

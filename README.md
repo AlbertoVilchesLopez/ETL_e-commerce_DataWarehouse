@@ -21,12 +21,6 @@ etl-olist/
 
 
 
-
-
-
-
-
-
 Resumen rápido:
 
 Coloca los CSVs en data/.
@@ -57,6 +51,7 @@ python analysis/analysis_notebook.py
 
 
 Los gráficos se guardarán en analysis/.
+
 
 
 

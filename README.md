@@ -1,6 +1,8 @@
 # ETL
 ## Pipeline ETL para análisis de e-commerce
-´´´
+
+
+'''
 etl-olist/
 ├─ data/                       # coloca aquí los CSV (olist_orders_dataset.csv, olist_items_dataset.csv, olist_products_dataset.csv)
 ├─ scripts/
@@ -17,7 +19,7 @@ etl-olist/
 ├─ requirements.txt
 ├─ docker-compose.yml        # (opcional) Postgres + Airflow skeleton
 └─ README.md
-´´´
+'''
 
 
 
@@ -51,6 +53,7 @@ python analysis/analysis_notebook.py
 
 
 Los gráficos se guardarán en analysis/.
+
 
 
 

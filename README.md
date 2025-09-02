@@ -1,5 +1,5 @@
 # ETL
-## Pipeline ETL para análisis de e-commerce
+## Pipeline ETL para análisis de e-commerce con Data Warehouse
 
 
 
@@ -46,6 +46,7 @@ python scripts/02_load_postgres.py
 Ejecuta análisis:
 python analysis/analysis_notebook.py
 Los gráficos se guardarán en analysis/.
+
 
 
 
